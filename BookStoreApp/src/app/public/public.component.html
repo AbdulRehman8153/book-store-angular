@@ -1,0 +1,9 @@
+<!-- <a routerLink="/public/book-details/12">Book Detail</a> -->
+
+<!-- Get Id value from component using text interpolation -->
+<!-- <a routerLink="/public/book-details/{{ bookId }}">Book Detail</a> -->
+
+<!-- Getting value from templater -->
+<a [routerLink]="['/public/book-details', bookId]">Book Detail</a>
+
+<router-outlet></router-outlet>
